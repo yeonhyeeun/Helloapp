@@ -34,7 +34,11 @@ public class MainActivity extends AppCompatActivity {
         //메세지 박스 "hello counter"
         //Toast.makeText(this, "Hello Counter", Toast.LENGTH_SHORT).show();
         count++;
-        textview.setText(count + ""); //int 를 문자로 변환
+        textview.setText(count + ""); //int 를 문자로 변환 숫자->문
+
+        //값을 가져오고싶다면 getText사용
+        //int count = Integer.parseInt(textview.getText().toString());
+        //textview.setText(count + ""); //int 를 문자로 변환 숫자->문
 
     }
 

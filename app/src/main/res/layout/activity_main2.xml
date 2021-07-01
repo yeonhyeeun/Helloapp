@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--리니어 레이아웃으로 변경함 !-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="태어난 년도를 입력하세요" />
+
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="19"
+        android:inputType="textPersonName"
+        android:hint="숫자를 입력하세요" />
+
+    <Button
+        android:onClick="OnAge"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나이 계산" />
+</LinearLayout>
