@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#E8FAE55A">
+
+    <Button
+        android:onClick="onToastClick"
+        android:id="@+id/btnToast"
+        android:layout_width="417dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="4dp"
+        android:text="TOAST"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:onClick="onCounterClick"
+        android:id="@+id/btnCounter"
+        android:layout_width="410dp"
+        android:layout_height="74dp"
+        android:text="COUNTER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="두번째 레이아웃"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="315dp" />
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#0C0C0C"
+        android:textSize="180sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnCounter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnToast" />
 </androidx.constraintlayout.widget.ConstraintLayout>
