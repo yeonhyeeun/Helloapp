@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="#673AB7"
+        android:text="여기는 두번째 페이지! "
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDEBCB"
+        android:text="받은 메세지 하단에 출력 "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvm"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bu2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="뒤로가기"
+        android:textSize="30sp" />
+
+</LinearLayout>
