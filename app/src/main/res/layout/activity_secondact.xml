@@ -32,6 +32,20 @@
         android:layout_height="83dp"
         android:textSize="30sp" />
 
+    <EditText
+        android:id="@+id/etmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="데이터 입력.. " />
+
+    <Button
+        android:id="@+id/bu2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터 전송하기" />
+
     <Button
         android:id="@+id/bu2_1"
         android:layout_width="match_parent"
